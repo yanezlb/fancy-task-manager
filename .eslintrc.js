@@ -58,7 +58,9 @@ module.exports = {
   // add your custom rules here
   rules: {
     'prefer-promise-reject-errors': 'off',
-
+    'linebreak-style': 'off',
+    'spaced-comment': 'off',
+    'no-console': 'off',
 
     // allow debugger during development only
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off'
